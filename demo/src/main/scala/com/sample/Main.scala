@@ -1,9 +1,9 @@
 package com.sample
 
 /**
- * Hello world!
- *
- */
+  * Hello world!
+  *
+  */
 object Main extends App {
-  println( "Hello World!" )
+  println("Hello World!")
 }

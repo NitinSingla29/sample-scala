@@ -12,7 +12,7 @@ object TryExpressionFeature extends App {
   useTryCatchWithPatternMatching
   returnDefaultValueInCaseOfException
 
-  useTryFinally
+  //  useTryFinally
 
   def useTryFinally = {
     println("Using try/finally")
@@ -34,6 +34,8 @@ object TryExpressionFeature extends App {
       }
       case e: Exception => {
         println("General Exception occured")
+        println("Check matched value is assigned to variable e")
+        println(s"Exception message = $e.message")
       }
     }
   }

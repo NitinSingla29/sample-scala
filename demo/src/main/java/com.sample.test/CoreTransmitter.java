@@ -1,6 +1,6 @@
 package com.sample.test;
 
-import com.sample.TransmitterImpl;
+import com.sample.app.TransmitterImpl;
 
 /**
  * Created by NSingla on 30-01-2017.

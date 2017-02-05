@@ -1,4 +1,4 @@
-package com.sample.ch2
+package com.sample.ch2.datatype
 
 object ArrayFeature extends App {
 
